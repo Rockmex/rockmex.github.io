@@ -89,6 +89,13 @@
     padding-bottom: 20px;
 }
 
+.img-phone{
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 338px;
+    height: 600px;
+}
+
 
 /********************************** Skill Bar CSS (https://www.youtube.com/watch?v=3l4TQyYgOg4&ab_channel=WEBCIFAR) ******************************************/
 .skill-list{
