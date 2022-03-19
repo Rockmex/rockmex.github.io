@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Profile </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/timeline.css" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Iconify icons-->
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIKit-->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+    <!-- SideBar Navigation-->
+    <div id="includeSideBar" class="includeSideBar"></div>
+    <section class="home-section">
+        <div class="home-content">
+            <i class='bx bx-menu'></i>
+            <span class="text">Profile</span>
+        </div>
+        <div class="uk-container uk-padding">
+            <div class="uk-timeline-content">
+                <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <h3 class="uk-card-title"><i class='bx bx-code-block'></i> Hello World!</h3>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <div class="uk-grid" data-uk-grid-match>
+                            <div class="text-part">
+                                <h2>About Me</h2>
+                                <p>
+                                    My name is Romer Chia and I am a Computer Science Master's student at Brooklyn
+                                    College,
+                                    CUNY.
+                                    <br>
+                                    <br>
+                                    This website is created to keep records of <a href="">notes</a>
+                                    taken while learning new technologies, and to
+                                    demonstrate the <a href="index.html">projects</a> I've done so far, and I
+                                    will update with more as I learn more from
+                                    industries and/or by myself.
+                                </p>
+                                <h2>Skills</h2>
+                                <div class="skill-list">
+                                    <li><h4>Java</h4><span class="skill-bar"><span class="bar-java"></span></span></li>
+                                    <li><h4>SQL</h4><span class="skill-bar"><span class="bar-sql"></span></span></li>
+                                    <li><h4>HTML</h4><span class="skill-bar"><span class="bar-html"></span></span></li>
+                                    <li><h4>Android</h4><span class="skill-bar"><span class="bar-android"></span></span></li>
+                                </div>
+                                <!-- Education Timeline -->
+                                <h2>Education</h2>
+                                <div class="timeline-education">
+                                    <ul class="timeline">
+                                        <!-- M.A. Brooklyn College -->
+                                        <li>
+                                            <div class="direction-r">
+                                                <div class="flag-wrapper">
+                                                    <span class="flag">M.A. in Computer Science, Brooklyn College</span>
+                                                    <span class="time-wrapper"><span class="time">Jan 2021 -
+                                                            present</span></span>
+                                                </div>
+                                                <div class="desc">My pursuing
+                                                    master's degree. Expected
+                                                    graduation in Spring 2022.
+                                                    <br>Current GPA: 4.0
+                                                    <br>Relavant Coursework:
+                                                    <a
+                                                    href="http://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=7200&div=U"
+                                                    target="_blank">Algorithm</a>,
+                                                    <a
+                                                    href="http://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=7221&div=U"
+                                                    target="_blank">Theoretical Computer Science</a>,
+                                                    <a
+                                                    href="http://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=7302&div=U"
+                                                    target="_blank">Computer Architecture</a>,
+                                                    <a
+                                                    href="http://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=7512&div=U"
+                                                    target="_blank">Advanced Dabatase Systems</a>,
+                                                    <a
+                                                    href="http://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=7124&div=U"
+                                                    target="_blank">Object Oriented Programming</a>,
+                                                    <a
+                                                    href="http://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=7310&div=U"
+                                                    target="_blank">Operating System</a>,
+                                                    <a
+                                                    href="http://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=7120&div=U"
+                                                    target="_blank">Programming Language and Compilers</a>.
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- B.S. Brooklyn College -->
+                                        <li>
+                                            <div class="direction-r">
+                                                <div class="flag-wrapper">
+                                                    <span class="flag">B.S. in Computer Science, Brooklyn College</span>
+                                                    <span class="time-wrapper"><span class="time">Jan 2018 - Dec
+                                                            2020</span></span>
+                                                </div>
+                                                <div class="desc">
+                                                    My undergraduate degree. This
+                                                    degree prepared me to be a
+                                                    professional programmer
+                                                    <br>Current GPA: 3.938
+                                                    <br>Honors:
+                                                    <a href="https://sps.cuny.edu/about/policies/academic-and-student-policies/honors-and-awards"
+                                                        target="_blank">magna cum laude</a>,
+                                                    <a href="https://sps.cuny.edu/about/policies/academic-and-student-policies/honors-and-awards"
+                                                        target="_blank">Dean's List 6 semesters.</a>
+                                                    <br>Relavant Coursework:
+                                                    <a href="http://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=3142&div=U"
+                                                        target="_blank">C++</a>,
+                                                    <a href="http://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=2210&div=U"
+                                                        target="_blank">Data Structure</a>,
+                                                    <a href="http://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=3140&div=U"
+                                                        target="_blank">Design and Implementation of Software Programming</a>,
+                                                    <a href="https://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=3660&div=U"
+                                                        target="_blank">Game Programming</a>,
+                                                    <a href="https://www.brooklyn.cuny.edu/courses/ShowCourse.do?redirect=/acad/course_info.jsp&dsc=CISC.&crs_num=3630&div=U"
+                                                        target="_blank">Multimedia Programming</a>.
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Java, Udacity -->
+                                        <li>
+                                            <div class="direction-r">
+                                                <div class="flag-wrapper">
+                                                    <span class="flag">Java Programming Nanodegree, Udacity</span>
+                                                    <span class="time-wrapper"><span class="time">Sep 2021 - Nov
+                                                            2021</span></span>
+                                                </div>
+                                                <div class="desc">An online
+                                                    degree from Udacity. In this
+                                                    <a href="https://www.udacity.com/course/java-programming-nanodegree--nd079"
+                                                        target="_blank">Nanodegree</a>, I reviewed Java
+                                                    Fundamentals, and learned
+                                                    Advanced Java Programming
+                                                    Techniques and Java Application
+                                                    Deployment
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Androidm, Udacity -->
+                                        <li>
+                                            <div class="direction-r">
+                                                <div class="flag-wrapper">
+                                                    <span class="flag">Android Basics Nanodegree by Google,
+                                                        Udacity</span>
+                                                    <span class="time-wrapper"><span class="time">Jan 2019 - Apr
+                                                            2019</span></span>
+                                                </div>
+                                                <div class="desc">An online
+                                                    degree from Udacity. In this
+                                                    <a href="https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803"
+                                                        target="_blank">Nanodegree</a>, I've learned
+                                                    Android Basics including: User
+                                                    Interface, User Input,
+                                                    Multi-Screen Apps, and
+                                                    Networking
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="form-part">
+                                <form class="contact-form" action="https://formspree.io/f/mzbovvqb" method="POST">
+                                    <h2 class="contact-header">EMAIL ME</h2>
+                                    <label class="contact-text">
+                                        Your name:
+                                        <input class="contact-text-input" type="text" name="name">
+                                    </label>
+                                    <label class="contact-text">
+                                        Your email:
+                                        <input class="contact-text-input" type="email" name="email">
+                                    </label>
+                                    <label class="contact-text">
+                                        Your message:
+                                        <textarea class="contact-text-input" name="message"></textarea>
+                                    </label>
+                                    <div class="contact-div">
+                                        <a class="contact-div-item" href="https://www.linkedin.com/in/romerchia/"
+                                            target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                                        <a class="contact-div-item" href="https://github.com/Rockmex" target="_blank"><i
+                                                class='bx bxl-github'></i></a>
+                                        <a class="contact-div-item" href="mailto:romerchia@hotmail.com"><i
+                                                class='bx bx-envelope'></i></a>
+                                        <a class="contact-div-item"><i class='bx bx-mobile-alt'></i></a>
+                                    </div>
+                                    <button class="contact-button-submit" type="submit">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>

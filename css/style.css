@@ -1,0 +1,233 @@
+/* Google Fonts Import Link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-text {
+    width: 55%;
+}
+
+.img-preview {
+    width: 400px;
+    height: 300px;
+}
+
+.img-screenshot {
+    width: 200px;
+    height: 400px;
+}
+
+.img-screenshot2 {
+    width: 200px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.text-part {
+    width: 60%;
+}
+
+.timeline-education{
+    margin-left: 20px;
+}
+
+.grid-left{
+    width: 30%;
+}
+
+.grid-left h4{
+    font-weight: bold;
+}
+
+.grid-right{
+    width: 70%;
+}
+
+.team{
+    margin-top: 40px;
+}
+
+.team-member{
+    margin-top: 10px;
+}
+
+.team-member-avatar{
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+}
+
+.team-member-nickname{
+    padding-left: 10px;
+    font-size: large;
+}
+
+.text-section{
+    border-bottom: 1px solid #cdcdcf;
+    padding-bottom: 1em;
+    margin-bottom: 1em
+}
+
+.text-section i{
+    font-size: 20px;
+}
+
+.text-section img{
+    padding-top: 20px;
+}
+
+.text-field{
+    font-weight: bold;
+}
+
+.images-preview img{
+    padding-bottom: 20px;
+}
+
+
+/********************************** Skill Bar CSS (https://www.youtube.com/watch?v=3l4TQyYgOg4&ab_channel=WEBCIFAR) ******************************************/
+.skill-list{
+    width: 600px;
+    color: white;
+}
+
+.skill-list li{
+    margin: 30px 0;
+}
+
+.skill-bar{
+    background-color: #ffffff;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 10px #000000; 
+}
+
+.skill-bar span{
+    height: 2px;
+    float: left;
+    background: #1327d4;
+}
+
+.bar-java{
+    width: 85%;
+    animation: bar-animation 2s;
+}
+
+.bar-sql{
+    width: 68%;
+    animation: bar-animation 2s;
+}
+
+.bar-html{
+    width: 60%;
+    animation: bar-animation 2s;
+}
+
+.bar-android{
+    width: 75%;
+    animation: bar-animation 2s;
+}
+
+@keyframes bar-animation{
+    0%{
+        width: 0%;
+    }
+}
+
+/********************************** Contact Form CSS (https://freefrontend.com/css-contact-forms/) ******************************************/
+.contact-form {
+    width: 340px;
+    height: 440px;
+    background: #E4E9F7;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px rgb(2, 1, 102);
+    margin-top: 50%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    position: relative
+}
+
+.contact-header {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #78788c;
+    border-bottom: 3px solid #78788c
+}
+
+.contact-text-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2
+}
+
+.contact-text-input:focus {
+    border-bottom: 2px solid #78788c
+}
+
+.contact-text:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #5a5a5a
+}
+
+.contact-button-submit {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all .3s
+}
+
+.contact-button-submit:hover {
+    background: #78788c;
+    color: #fff
+}
+
+.contact-div {
+    content: 'Hi';
+    position: absolute;
+    bottom: -35px;
+    right: -30px;
+    background: #50505a;
+    color: #fff;
+    width: 210px;
+    padding: 10px 0 10px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000
+}
+
+.contact-div-item i{
+    padding-left: 20px;
+    font-size: 25px;
+    color: white;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.contact-div-item:hover i{
+    color: #9f9fdf;
+}
